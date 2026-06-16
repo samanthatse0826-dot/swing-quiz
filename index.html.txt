@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Swing Quiz</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="wrap">
+  <h2 class="title">What’s this?</h2>
+  <div class="img-box">
+    <img src="./swing.jpg" alt="秋千图片" id="swingImg">
+  </div>
+  <div class="option-list">
+    <div class="option-item" data-ans="1">1. slider</div>
+    <div class="option-item" data-ans="2">2. swing</div>
+  </div>
+  <div class="mask" id="mask">
+    <div class="popup">
+      <div class="pop-text" id="popText"></div>
+      <button class="pop-btn" id="closePop">确定</button>
+    </div>
+  </div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
